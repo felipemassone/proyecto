@@ -1,0 +1,240 @@
+* {
+    margin: 0%;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.text-der {
+    font-size: 2rem;
+    font-weight: normal;
+    font-style: normal;
+    background-color: gainsboro;
+    text-align: right;
+}
+
+.text-center {
+    font-style: italic;
+    font-size: 2rem;
+    background-color: gainsboro;
+    text-align: center;
+}
+
+.text-izq {
+    font-size: 2rem;
+    font-weight: normal;
+    text-align: left;
+    background-color: gainsboro;
+}
+
+.carousel-innfder {
+    height: 50px 50px 50px 50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 30px;
+    margin-bottom: 50px;
+
+}
+
+.carousel-innfer img {
+    width: 50%;
+    max-height: 1200px;
+}
+
+.carousel-inner>.carousel-item>img {
+    width: 640px;
+    height: 700px;
+}
+
+.carousel-caption {
+    bottom: 220px;
+    z-index: 2;
+}
+
+.carousel-caption h5 {
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+
+.carousel-caption p {
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+.carousel-inner::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+
+header {
+    background-color: gainsboro;
+
+}
+
+.navbar-nav a {
+    padding: 10px 25px;
+    margin: 25px;
+    font-size: 2rem;
+}
+
+.navbar-nav a {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-brand {
+    color: #000;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand:focus .navbar-light .navbar-brand:hover {
+    color: #000;
+}
+
+.w-100 {
+    height: 100vh;
+}
+
+
+button {
+    margin: 10px 50px;
+    position: relative;
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 100px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+footer{
+    bottom: 0;
+    padding-top: 100px;
+    font-size: 0.8rem;
+
+}
+
+.container-fsluid a{
+    font-size: 0.8rem;
+}
+
+.container-fluid img {
+    height: 100px;
+    padding: 0px 10px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    display: block;
+}
+
+.about-section-padding{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    background-color: tomato;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 2rem;
+}
+
+label {
+    font-size: 2rem;
+}
+
+input {
+    outline: none;
+    border: 0;
+}
+
+.field {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.btn {
+    border-radius: 3px;
+    display: inline-block;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.btn-green {
+    color: white;
+    background-color: #3CC93F;
+}
+
+.btn-green:hover {
+    background-color: #37B839;
+}
+
+.btn-green:active {
+    background-color: #29962A;
+}
+
+.btn-red {
+    color: white;
+    background-color: #E34242;
+}
+
+.btn-red:hover {
+    background-color: #C43535;
+}
+
+.btn-red:active {
+    background-color: #A62828;
+}
+
+.redes h2 {
+    text-align: center;
+    font-size: 3rem;
+    padding: 100px;
+}
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 990px) {
+    .carousel-caption {
+        bottom: 350px;
+    }
+
+    .carousel-caption p {
+        width: 100%;
+    }
+}
